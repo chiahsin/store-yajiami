@@ -9,10 +9,10 @@
   <meta property="og:image" content="<%= og_image %>" />
   <meta property="og:site_name" content="<%= og_site_name %>" />
   <meta property="og:locale" content="zh_TW" />
-  <link rel="stylesheet" href="/stylesheets/all.css" media="screen" title="no title" charset="utf-8">
+  <link rel="stylesheet" href="/stylesheets/all.css?<%= new Date().getTime() %>" media="screen" charset="utf-8">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-  <script src="/js/vendor.js"></script>
-  <script src="/js/all.js"></script>
+  <script src="/js/vendor.js?<%= new Date().getTime() %>"></script>
+  <script src="/js/all.js?<%= new Date().getTime() %>"></script>
 </head>
 <body>
   <div class="container-fluid mb-2" style="max-width: 800px;">
