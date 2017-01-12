@@ -5009,6 +5009,9 @@ a.relative {
 .absolute {
   position: absolute; }
 
+.bg-primary {
+  background-color: #0069a4; }
+
 /**
  * Swiper 3.4.0
  * Most modern mobile touch slider and framework with hardware accelerated transitions
