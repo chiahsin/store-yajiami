@@ -5,6 +5,7 @@ $(document).ready(()=> {
     timer = new Date(timer);
     d = new Date();
     if (d < timer) {
+      console.log(d, timer);
       $('.clock').countdown(timer, (event)=> {
         return $('.clock').html(event.strftime('優惠僅剩 %D天 %H時 %M分 %S秒'));
       });
